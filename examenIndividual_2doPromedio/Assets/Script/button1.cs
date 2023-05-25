@@ -4,22 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class button : MonoBehaviour
+public class button1 : MonoBehaviour
 {
     public int plusAmount = 1;
-    public Text resultText;
 
-    private int result = 0;
+    public int result = 0;
     // Start is called before the first frame update
-    void Start()
-    {
-        resultText.text = result.ToString();
-    }
 
     public void OnButtononClick()
     {
         result += plusAmount;
 
-        resultText.text = result.ToString();
     }
 }
