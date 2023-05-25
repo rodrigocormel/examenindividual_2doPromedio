@@ -12,16 +12,15 @@ public class SumResult : MonoBehaviour
 
     private void Update()
     {
-        // Obtener los datos de los scripts A y B
+        
         int n1 = button1.result;
         int n2 = button2.result;
         int n3 = button3.result;
 
-        // Construir el texto combinando la información
         int resultTotal = n1 + n2 + n3;
         string resultado = resultTotal.ToString();
 
-        // Mostrar el texto en pantalla
+       
         sum.text = resultado;
     }
 }
